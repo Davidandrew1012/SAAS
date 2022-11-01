@@ -1,0 +1,125 @@
+.main-logo {
+    height: 50px;
+}
+
+nav .container {
+    padding-top: 15px;
+    display: flex;
+}
+
+.nav-links {
+    margin-left: auto;
+    display: flex;
+    gap: var(--size-40);
+    align-items: center;
+}
+
+.featured {color: var(--font-color-link);}
+
+.statement-logos {
+    margin-top: var(--size-40);
+    display: flex;
+    margin-bottom: var(--size-150);
+}
+
+h1  {
+    color: var(--black);
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 0
+}
+
+h2 {
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+p {margin-top: 0;}
+
+.btn i {
+    font-size: var(--size-16);
+    align-items: center;
+    margin-right: 5px
+}
+
+.mission-statement .learn { margin-left: 20px; }
+
+.logo-icons img {
+    height: 50px;
+    margin: 20%;
+    margin-top: 18%
+}
+
+.logo-icons {
+    margin-left: auto;
+    display: flex;
+    gap: 10px
+}
+
+.logo-box {
+    background-color: var(--white);
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px var(--font-color-light);
+}
+
+.key-benefits {
+    text-align: center;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.chart {
+    height: 210px;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 0 6px 8px var(--font-color-light);
+    align-items: center;
+    padding: 20px;
+}
+
+.chart img {
+    width: 40px;
+}
+
+.benefits-list h4 {
+    margin: 0.5rem 0;
+}
+
+.benefits-list p {
+    font-size: 12px; 
+}
+
+.chart a { 
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.perspectives-holder {
+    background-color: #F4F5F7;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.perspectives-left a {margin-top: 20px;}
+
+.perspectives-left { 
+    padding: 20px;
+
+}
+
+.perspectives-right {margin-left: auto}
+
+.perspectives-right img { width:600px }
+
+.why-front {
+    text-align: center;
+}
