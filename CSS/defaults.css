@@ -82,3 +82,7 @@ a { text-decoration: none; }
     align-items: center;
 }
 
+hr {
+    background-color: lightgrey;
+    border: .5px solid lightgrey;
+}
