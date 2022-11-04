@@ -271,6 +271,10 @@ p {margin-top: 0;}
 
 .price-table {
     display: flex;
+    margin: auto;
+    gap: 20px;
+    margin-left: 20px;
+    padding-bottom: 6rem;
 }
 
 .number {
@@ -288,7 +292,7 @@ p {margin-top: 0;}
 .table-left hr { margin: 2rem 0; }
 .table-left {
     width: 33%;
-    box-shadow: 0px 3px 8px var(--font-color-light);
+    box-shadow: 0px 9px 12px var(--font-color-light);
     padding: 25px;
 }
 
@@ -305,6 +309,7 @@ p {margin-top: 0;}
     flex-wrap: wrap;
     padding: 20px;
     gap: 20px;
+    width: 67%;
 }
 
 .table-right img {
@@ -313,4 +318,122 @@ p {margin-top: 0;}
 
 .card {
     width: 300px;
+    padding: 20px;
 }
+
+.hire-us-bkgd {
+    background-color: var(--dark-background);
+}
+
+.hire-us {
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.hire-left {
+    padding: 100px;
+    width: 500px;
+}
+
+.hire-left h2, .quote, hr, h3 {
+    color: var(--white);
+}
+
+.hire-left hr {
+    width: 60%;
+    margin-inline-start: 0;
+    margin: 30px 0;
+}
+
+.hire-right {
+    background-color: var(--white);
+    width: 500px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.charlotte  {
+    margin: 50px 0;
+}
+
+.employee-icons {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.employee-icons img {
+    border-radius: 50px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.selected img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.form-wrapper h3 {
+    color: var(--black);
+    padding: 0 10px 0 23px;
+}
+
+.form-wrapper input {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form-wrapper select {
+    width: 12.5rem;
+    height:2rem;
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+#checkbox {
+    width: 2rem;
+}
+
+.check-input {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.privacy-container {
+    display: flex;
+    gap: 30px;
+}
+
+.privacy {
+    font-weight: 600;
+    border-bottom: 1.5px dashed var(--font-color-light);
+}
+
+.featured.privacy {border-bottom: 1.5px dashed var(--font-color-link);}
+
+.submit {
+    padding-bottom: 20px;
+}
+
+.company-detail {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
