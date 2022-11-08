@@ -9,9 +9,33 @@ nav .container {
 
 .nav-links {
     margin-left: auto;
-    display: flex;
+    
+}
+
+.navbar-toggler {
+    outline: none;
+    border: solid 1px transparent;
+    background-color: transparent;
+}
+
+.navbar-toggler span {
+    color: var(--font-color-base);
+    font-size: var(--size-20);
+    cursor: pointer;
+}
+
+ul {display: flex;
     gap: var(--size-40);
     align-items: center;
+    list-style: none;
+}
+
+[aria-controls="navbardropdown"] {
+    display: none;
+}
+
+.gradient-container {
+    position: relative;
 }
 
 .gradient   {

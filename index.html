@@ -11,18 +11,38 @@
 </head>
 <body>
     
-    <div class="gradient"></div>
+    <div class="gradient-container">
+        <div class="gradient"></div>  
+    </div>
     
+
     <nav>
         <div class="container"> 
             <img class="main-logo" src="/Assets/project_logo/logo.svg" alt="Front Logo">
             <div class="nav-links">
-                <a class="grey" href="#">Home</a>
-                <a class="featured" href="#">Features</a>
-                <a class="grey" href="#">Learn</a>
-                <a class="grey" href="#">Pricing</a>
-                <a class="grey" href="#">Hire us</a>
-                <a class="btn btn-primary" href="#">Buy Now</a>
+                <button class="navbar-toggler" aria-expanded="false" aria-controls="navbardropdown">
+                    <span>&#9776;</span>
+                </button>
+                <ul>
+                    <li>
+                        <a class="grey" href="#">Home</a>
+                    </li>    
+                    <li>
+                        <a class="featured" href="#">Features</a>
+                    </li>
+                    <li>
+                        <a class="grey" href="#">Learn</a>
+                    </li>
+                    <li>
+                        <a class="grey" href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="grey" href="#">Hire us</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-primary" href="#">Buy Now</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -346,5 +366,17 @@
             for marketing purposes.
         </div>
     </div>
+
+    <script>
+    const navbutton = document.querySelector('button[aria-expanded]')
+    
+    function togglenav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navbutton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navbutton.addEventListener('click', togglenav);
+    </script>
+
 </body>
 </html>
