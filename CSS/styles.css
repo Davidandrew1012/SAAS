@@ -14,10 +14,20 @@ nav .container {
     align-items: center;
 }
 
+.gradient   {
+    height: 525px;
+    width: 2100px;
+    position: absolute;
+    z-index: -1;
+    transform: translate(66px, -215px) rotate(-5deg);
+    background: rgb(2,0,36);
+    background: linear-gradient(130deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 12%, rgba(241,241,244,1) 50%, rgba(213,217,230,1) 50%, rgba(204,208,223,1) 100%);
+}
+
 .featured {color: var(--font-color-link);}
 
 .statement-logos {
-    margin-top: var(--size-40);
+    margin-top: 80px;
     display: flex;
     margin-bottom: var(--size-150);
 }
@@ -45,7 +55,7 @@ p {margin-top: 0;}
 .mission-statement .learn { margin-left: 20px; }
 
 .logo-icons img {
-    height: 50px;
+    height: 35px;
     margin: 20%;
     margin-top: 18%
 }
@@ -58,11 +68,22 @@ p {margin-top: 0;}
 
 .logo-box {
     background-color: var(--white);
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 50px;
     box-shadow: 0px 2px 5px var(--font-color-light);
+    position: relative;
 }
+
+.asa   {transform: translate(400px, -25px);}
+.atla  {transform: translate(90px, -30px);}
+.cal   {transform: translate(225px, 175px);}
+.goo-a {transform: translate(-75px, 140px);}
+.goog  {transform: translate(-230px, -50px);}
+.pay   {transform: translate(-330px, 75px);}
+.wea   {transform: translate(-125px, 70px);}
+
+
 
 .key-benefits {
     text-align: center;
@@ -420,7 +441,7 @@ textarea {
     gap: 30px;
 }
 
-.privacy {
+.privacy-policy {
     font-weight: 600;
     border-bottom: 1.5px dashed var(--font-color-light);
 }
@@ -437,3 +458,50 @@ textarea {
     align-items: baseline;
 }
 
+.info {
+    display: flex;
+    gap: 7rem;
+    margin-top: 4rem;
+}
+
+.company-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-options h2 {
+    color: var(--font-color-dark);
+    margin-top: 0;
+    line-height: 1.3;
+}
+
+.help i {
+    margin-right: 8px;
+}
+
+.privacy-social {
+    display: flex;
+    gap: .5rem;
+}
+
+.privacy {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.footer hr {
+    margin: 4rem 0
+}
+
+.socials  {
+    display: flex;
+    margin-left: auto;
+    gap: 1.5rem;
+    padding-right: 1rem;
+}
+
+.copyright  {
+    text-align: center;
+    margin: 3rem;
+}
