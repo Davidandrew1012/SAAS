@@ -1,5 +1,5 @@
 /* iPads and Tablets - portrait */
-@media screen and (max-width:832px) {
+@media screen and (max-width:768px) {
     [aria-controls="navbardropdown"] {
         display: block;
     }   
@@ -32,6 +32,41 @@
 
     .perspectives-right {
         margin-left: 0;
+    }
+
+    .perspectives-left {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .chart {
+        width: 240px;
+    }
+
+    .hubspot {
+        flex-wrap: wrap;
+    }
+
+    .christina-statement {
+        padding: 150px 50px;
+        text-align: center;
+    }
+
+    .table-right {
+        flex-wrap: wrap;
+        width: 720px;
+    }
+
+    .hire-left {
+        text-align: center;
+    }
+
+    .hire-left hr {
+        width: 100%;
+    }
+
+    .employee-icons {
+        justify-content: center;
     }
 }
 
