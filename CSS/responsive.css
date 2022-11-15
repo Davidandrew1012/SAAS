@@ -30,8 +30,16 @@
         margin-left: 0;
     }
 
+    .statement-logos {
+        margin-top: 110px;
+    }
+
     .perspectives-right {
         margin-left: 0;
+    }
+
+    .perspectives-right img {
+        width: 100%;
     }
 
     .perspectives-left {
@@ -68,5 +76,138 @@
     .employee-icons {
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 550px) {
+    .circle-diagram {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 55px;
+    }
+
+    .circle-container {
+        margin: 0;
+    }
+
+    .inner-container {
+        flex-direction: column;
+        gap: 10px;
+        width: inherit;
+        position: relative;
+    }
+
+    .circle-container hr {
+        display: none;
+    }
+
+    .words {
+        flex-direction: column;
+        gap: 49px;
+        justify-content: center;
+        text-align: initial;
+        width: fit-content;
+    }
+
+    .hire-right {
+        width: fit-content;
+        margin: 0
+    }
+
+    .why-front {
+        width: auto;
+        margin: auto;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    
+    
+    .christina-pic {
+        width: 300px;
+    }
+
+    .dots {
+        transform: translate(-345px, 77px);
+        width: 165px;
+    }
+    
+    .info {
+        flex-wrap: wrap;
+    }
+
+    .privacy-social {
+        flex-wrap: wrap;
+    } 
+
+    .hire-right {
+        width: fit-content;
+        margin: 0
+    }
+
+    .table-left {
+        width: fit-content;
+    }
+
+    .form-wrapper {
+        width: 300px;
+    }
+
+    .form-wrapper input {
+        width: 19rem;
+    }
+
+    .form-wrapper select {
+        width: 18.5rem;
+    }
+
+    .christina-profile {
+        margin: 0;
+    }
+
+    .christina-statement {
+        padding: 50px 5px 0 5px;
+    }
+
+    .logo-icons {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .statement-logos {
+        margin-bottom: 0;
+    }
+
+    .asa {transform: translate(275px, -55px);}
+    .atla {transform: translate(80px, -60px);}
+    .cal {transform: translate(140px, 120px);}
+    .goo-a {transform: translate(-60px, 110px);}
+    .goog {transform: translate(-220px, -60px);}
+    .pay {transform: translate(25px, -20px);}
+    .wea {transform: translate(150px, -35px);}
+
+    .gradient-container {height: 555px;}
+
+    .gradient {transform: translate(-650px, -50px) rotate(-9deg);}
+
+    .info {
+        padding-left: 25px;
+        padding-right: 25px;
+        justify-content: center;
+    }
+
+    .info-wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .socials {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-select {width: 175px;}
+
 }
 
