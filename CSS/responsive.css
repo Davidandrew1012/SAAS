@@ -30,6 +30,10 @@
         margin-left: 0;
     }
 
+    .mission-statement {
+        text-align: center;
+    }
+
     .statement-logos {
         margin-top: 110px;
     }
@@ -49,6 +53,10 @@
 
     .chart {
         width: 240px;
+    }
+
+    .info {
+        flex-wrap: wrap;
     }
 
     .hubspot {
@@ -166,6 +174,10 @@
         margin: 0;
     }
 
+    .perspectives-left {
+        width: 300px;
+    }
+
     .christina-statement {
         padding: 50px 5px 0 5px;
     }
@@ -208,6 +220,10 @@
     }
 
     .footer-select {width: 175px;}
+
+    .price-table {
+        margin-left: 0px;
+    }
 
 }
 

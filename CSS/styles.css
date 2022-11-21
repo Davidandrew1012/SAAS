@@ -5,6 +5,7 @@
 .navbar {
     padding-top: 15px;
     display: flex;
+    justify-content: space-around;
 }
 
 .navbar.sticky {
@@ -13,7 +14,7 @@
 }
 
 .nav-links {
-    margin-left: auto;
+    /* margin-left: auto; */
     
 }
 
@@ -61,14 +62,14 @@ ul {display: flex;
 .featured {color: var(--font-color-link);}
 
 .mission-statement {
-    width: 205px;
+    width: 315px;
 }
 
 .statement-logos {
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: var(--size-150);
 }
 
@@ -101,7 +102,7 @@ p {margin-top: 0;}
 }
 
 .logo-icons {
-    margin-left: auto;
+    /* margin-left: auto; */
     display: flex;
     gap: 10px
 }
@@ -152,6 +153,15 @@ p {margin-top: 0;}
     width: 40px;
 }
 
+.chart:hover {
+    animation-name: user-animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    background-color: var(--white);
+    z-index: 10;
+  }
+
 .benefits-list h4 {
     margin: 0.5rem 0;
 }
@@ -180,8 +190,6 @@ p {margin-top: 0;}
     padding: 20px;
     width: 400px;
 }
-
-.perspectives-right {margin-left: auto}
 
 .perspectives-right img { width:600px }
 
@@ -278,6 +286,11 @@ p {margin-top: 0;}
     left:50%;
     transform: translate(-50%, -50%);
 }
+
+.white-btn:hover {
+    background-color: var(--font-color-link);
+    color: white;
+  }
 
 .hubspot    {
     display: flex;
@@ -521,6 +534,7 @@ textarea {
 
 .info {
     display: flex;
+    justify-content: center;
     gap: 7rem;
     margin-top: 4rem;
 }
@@ -528,6 +542,7 @@ textarea {
 .info-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 7rem;
 }
 
@@ -538,6 +553,8 @@ textarea {
 .company-options {
     display: flex;
     flex-direction: column;
+    width: 160px;
+    margin: 20px;
 }
 
 .company-options h2 {
@@ -552,6 +569,8 @@ textarea {
 
 .privacy-social {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: .5rem;
 }
 
@@ -567,7 +586,7 @@ textarea {
 
 .socials  {
     display: flex;
-    margin-left: auto;
+    /* margin-left: auto; */
     gap: 1rem;
     padding-right: 1rem;
 }
@@ -576,3 +595,13 @@ textarea {
     text-align: center;
     margin: 3rem;
 }
+
+@keyframes user-animation {
+    0% {
+      background-color:white;
+      color:black;
+    }
+    100% {
+      transform:scale(1.2) translate(0px,-10px);
+    }
+  }
