@@ -422,7 +422,7 @@ p {margin-top: 0;}
 .hire-us {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
     gap: 50px;
 }
